@@ -1,3 +1,3 @@
-import { setter } from './setter'
+import {setter} from './setter'
 
 export default setter

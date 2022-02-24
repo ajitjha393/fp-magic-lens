@@ -5,13 +5,23 @@
   "author": "Bishwajit Jha <ajitjha393@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "husky": "^7.0.4",
+    "lint-staged": "^12.3.4",
+    "prettier": "^2.5.1",
     "readline-sync": "^1.4.10",
     "shelljs": "^0.8.5",
     "typescript": "^4.5.4"
+  },
+  "lint-staged": {
+    "*.{js,css,md}": "prettier --write"
   },
   "keywords": [
     "fp",
     "lens",
     "proxy"
-  ]
+  ],
+  "scripts": {
+    "prepare": "husky install",
+    "format": "prettier --write ."
+  }
 }

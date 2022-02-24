@@ -1,6 +1,6 @@
 {
   "name": "fp-magic-lens",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "index.js",
   "author": "Bishwajit Jha <ajitjha393@gmail.com>",
   "license": "MIT",
@@ -21,7 +21,6 @@
     "proxy"
   ],
   "scripts": {
-    "prepare": "husky install",
     "format": "prettier --write .",
     "lint": "prettier --check ."
   }

@@ -1,4 +1,4 @@
-### FP-MAGIC-LENS
+## FP-MAGIC-LENS
 
 Usually when defining our functionally pure lenses for our data object, we
 define a `getter` and a `setter` methods explicitly.
@@ -51,3 +51,9 @@ With the setter, we are looking to generate a new whole with the new part that
 we have passed to it.
 
 Lenses are basically the get/set functions we’re used to but functionally pure!
+
+
+## CODE PLAYGROUND 
+
+
+Try it out here - [FP Magic Lens Playground](https://codesandbox.io/s/hopeful-shadow-jh60lc?file=/src/examples.ts)
